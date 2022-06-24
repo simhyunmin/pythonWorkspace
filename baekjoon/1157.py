@@ -29,6 +29,7 @@
 
 # s = input().upper()
 # us =list(set(s))
+# print(us)
 # count_list =[]
 # for i in us:
 #   count_list.append(s.count(i))

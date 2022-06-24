@@ -1,1 +1,1 @@
-print(cabinet[5])
+
