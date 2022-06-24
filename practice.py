@@ -158,7 +158,7 @@
 # print("나는 \'지키는\' 환경 프로젝트의 일원이다.")
 # print("C:\\Users\\SAMSUNG\\Desktop\\PythonWorkSpace")
 
-#\r 이후에 오는 문장은 이전 문장이 다 적힌 이후, 커서를 앞으로 보냈을때 다시 작성한 결과를 저장해준다.
+# \r 이후에 오는 문장은 이전 문장이 다 적힌 이후, 커서를 앞으로 보냈을때 다시 작성한 결과를 저장해준다.
 # str = input()
 # a = 0
 # for x in range(len(str)):
@@ -230,6 +230,15 @@
 
 # num_list.extend(mix_list)
 # print(num_list)
+
+def func_double(x):
+  return x*5
+
+result1 = list(map(int, [1.1, 2.2, 3.3, 4.4]))
+print(result1)
+
+result2 = list(map(func_double, [1, 2, 3, 4, 5]))
+print(result2)
 
 
 
