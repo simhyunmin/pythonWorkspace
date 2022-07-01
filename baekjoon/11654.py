@@ -1,4 +1,2 @@
-i = int(input())
-n = input()
-n = list(map(int, n))
-print(sum(n))
+i = input()
+print(ord(i))
